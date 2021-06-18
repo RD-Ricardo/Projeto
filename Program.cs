@@ -1,4 +1,5 @@
 ﻿using System;
+using Figgle;
 
 namespace Projeto
 {
@@ -6,8 +7,10 @@ namespace Projeto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Inicio o programa Porra!!!!!!!");
-            Funcoes function =  new Funcoes();
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine(FiggleFonts.Starwars.Render("Bem vindo !"));
+            Console.ForegroundColor = ConsoleColor.White;
+            var function =  new Funcoes();
             function.chamar();
         }
        

@@ -6,18 +6,26 @@ namespace Projeto
         {
             switch(op){
                 case 1:  
-                    Funcao("soma","+");
+                    Funcao("Soma","+");
                 break;
                 case 2 : 
-                    Funcao("subtrair","-");
+                    Funcao("Subtração","-");
                 break;
                 case 3: 
-                    Funcao("multiplicacao","*");
+                    Funcao("Multiplicação","*");
                 break;
                 case 4 : 
-                    Funcao("divisao","/");
+                    Funcao("Divisão","/");
                 break;
-                
+                case 5 : 
+                    Funcao("Exponenciação","**");
+                break;
+                case 6 : 
+                    Funcao("Radiciação","***");
+                break;
+                case 8 : 
+                    Funcao("Média Aritmética" ,  "mda");
+                break;
             }
         }
     }
