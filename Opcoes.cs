@@ -1,3 +1,5 @@
+using System;
+
 namespace Projeto
 {
     public class Opcoes : Funcoes
@@ -5,6 +7,12 @@ namespace Projeto
         public Opcoes(int op)
         {
             switch(op){
+                case 0:
+                    Console.ForegroundColor  = ConsoleColor.Green;
+                    Console.WriteLine($"\nAté Logo...");
+                    Console.ResetColor();
+                    Environment.Exit(0);      
+                break;
                 case 1:  
                     Funcao("Soma","+");
                 break;
@@ -18,13 +26,32 @@ namespace Projeto
                     Funcao("Divisão","/");
                 break;
                 case 5 : 
-                    Funcao("Exponenciação","**");
+                    funcaoUmaentrada("Exponenciação","**");
                 break;
                 case 6 : 
-                    Funcao("Radiciação","***");
+                    funcaoUmaentrada("Radiciação","***");
+                break;
+                case 7 : 
+                    funcaoUmaentrada("Tabuada","tb");
                 break;
                 case 8 : 
                     Funcao("Média Aritmética" ,  "mda");
+                break;
+                case 9:
+                    Console.Clear(); 
+                    chamar();
+                break;
+                case 10:
+                    Console.ForegroundColor = ConsoleColor.Blue; 
+                    Console.WriteLine("\nCreditos:");
+                    Console.WriteLine("------------------------------------------------------------------");
+                    Console.WriteLine("- Desenvolvido por: Ricardo Dias                                 -");
+                    Console.WriteLine("- Contato:                                                      -");
+                    Console.WriteLine("- GitHub - https://github.com/RD-Ricardo                         -");
+                    Console.WriteLine("- Instagram - https://www.instagram.com/ricardodias169/?hl=pt-br -");
+                    Console.WriteLine("------------------------------------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.White; 
+                    chamar();
                 break;
             }
         }

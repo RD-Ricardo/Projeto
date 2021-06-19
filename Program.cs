@@ -8,11 +8,10 @@ namespace Projeto
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine(FiggleFonts.Starwars.Render("Bem vindo !"));
+            Console.WriteLine(FiggleFonts.Starwars.Render("RD - Calc"));
             Console.ForegroundColor = ConsoleColor.White;
             var function =  new Funcoes();
             function.chamar();
         }
-       
     }
 }   
