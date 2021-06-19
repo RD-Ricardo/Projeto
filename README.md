@@ -1,4 +1,4 @@
-# 🌐Projeto 
+# 🌐Projeto RD-Calc
 
 
 #### Software desenvolvido no intuito de ajudar os usuário com suas operações de matemática, o software também oferece calculo da raiz quadrada ou da potencia de um número, com suporte a tabuada e média aritmética🧮. 
@@ -22,6 +22,7 @@
 [![Demonstração](/ex3.png)]()
 
 ## 
+<<<<<<< HEAD
 
 ### Download 👇
 
@@ -30,3 +31,5 @@
 Para executar o programa basta dar o seguinte comando no seu terminal:
 
 [![Demonstração](/in.png)]()
+=======
+>>>>>>> 3318c482f16abb195fa976c9af9ead3e2d402994
