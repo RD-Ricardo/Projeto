@@ -5,14 +5,14 @@
 ###
 [![Demonstração](/ex1.png)]()
 
-#### ➾✔️ Fácil Manuseio
+#### ➾ ✔️ Fácil Manuseio
 #### ➾ ✔️ Rápido
 #### ➾ ✔️ Leve 
 #### ➾ ✔️ Open-Source
 ##
 ## 📌 Operação de Soma
 
-[![Demonstração](/ex2.png)]()
+[![Demonstração](/exe2.png)]()
 
 ### O software consiste em funções para maior produtividade com suas operações 📝.
 
@@ -22,3 +22,11 @@
 [![Demonstração](/ex3.png)]()
 
 ## 
+
+### Download 👇
+
+### ➾ [link Dowload](https://github.com/RD-Ricardo/Projeto/archive/refs/heads/main.zip)
+
+Para executar o programa basta dar o seguinte comando no seu terminal:
+
+[![Demonstração](/in.png)]()
