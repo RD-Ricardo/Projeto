@@ -32,4 +32,4 @@ Para executar o programa basta dar o seguinte comando no seu terminal:
 
 [![Demonstração](/in.png)]()
 =======
->>>>>>> 3318c482f16abb195fa976c9af9ead3e2d402994
+
